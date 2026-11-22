@@ -137,5 +137,6 @@
   "axleGearTitle": "Roue dentée arrière · 502A · 50 dents",
   "axleGearDescription": "Choisissez « 50 Teeth » et « 2mm Tight ». Le dessin du vendeur indique Ø26 mm, une denture de 1,6 mm de large, une largeur totale de 4,4 mm et un alésage de 1,95 mm pour un montage serré sur l’axe de 2 mm. Vérifiez le dégagement du moyeu et l’alignement des dentures.",
   "axleGearShop": "Roue dentée d’essieu sur AliExpress",
-  "separateStatus": "Le montage avec des composants achetés séparément n’a pas été testé."
+  "separateStatus": "Le montage avec des composants achetés séparément n’a pas été testé.",
+  "framesGlueText": "Pour renforcer l’assemblage, vous pouvez appliquer un peu de colle cyanoacrylate sur les raccords des montants après avoir vérifié leur ajustement. Les raccords collés ne sont pas destinés à être démontés."
 }

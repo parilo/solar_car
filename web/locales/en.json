@@ -137,5 +137,6 @@
   "axleGearTitle": "Rear axle gear · 502A · 50 teeth",
   "axleGearDescription": "Choose “50 Teeth” and “2mm Tight”. The seller’s drawing shows Ø26 mm, a 1.6 mm tooth face, 4.4 mm total width and a 1.95 mm bore for a press fit on the 2 mm axle. Check hub clearance and tooth alignment.",
   "axleGearShop": "Axle gear on AliExpress",
-  "separateStatus": "A build using separately purchased components has not been tested."
+  "separateStatus": "A build using separately purchased components has not been tested.",
+  "framesGlueText": "For extra strength, you can apply a little superglue to the post joints after checking the fit. Glued joints are intended to stay assembled."
 }

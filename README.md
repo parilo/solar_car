@@ -59,6 +59,8 @@ The original pinion was measured at approximately Ø6 × 10 mm and the axle gear
 
 The front panel is tilted by 20° and the rear panel by 10°. The rear panel's center is 15 mm higher than the front panel's center. All posts are straight, with integral fasteners at both ends. The accepted upper fit corresponds to SC1 test pieces **post 1 + socket 6**. The lower snap joints fit the existing 4.2 × 2.8 mm chassis slots.
 
+For extra strength, you can apply a little superglue to the post joints after checking the fit. Glued joints are intended to stay assembled.
+
 ## Assembly
 
 [![Exploded view of the V2.10 chassis and BF5 panel mounts](site/solar-car-assets/assembly-exploded.webp)](docs/assembly-exploded.png)

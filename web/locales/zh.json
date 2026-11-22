@@ -137,5 +137,6 @@
   "axleGearTitle": "后轴齿轮 · 502A · 50 齿",
   "axleGearDescription": "选择“50 Teeth”和“2mm Tight”。卖家尺寸图标注外径 Ø26 mm、齿宽 1.6 mm、总宽 4.4 mm、孔径 1.95 mm，用于与 2 mm 后轴过盈配合。请检查轮毂间隙及齿轮对齐情况。",
   "axleGearShop": "在 AliExpress 查看后轴齿轮",
-  "separateStatus": "使用单独购买的零件组装整车的方案尚未经过验证。"
+  "separateStatus": "使用单独购买的零件组装整车的方案尚未经过验证。",
+  "framesGlueText": "确认配合合适后，可以在支柱连接处涂少量瞬间胶，以提高牢固度。粘接后的连接不适合拆卸。"
 }

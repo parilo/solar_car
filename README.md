@@ -1,57 +1,57 @@
-# Солнечная машинка
+# Solar Car
 
-Небольшая машинка на двух солнечных панелях. Шасси, рамы и стойки спроектированы для 3D-печати. **22 ноября 2026 года автор сообщил: машинка собрана, всё работает.** Это результат практической сборки; измерения скорости, тяги и ресурса не проводились.
+A small car powered by two solar panels, with a 3D-printed chassis, panel frames, and support posts. **On November 22, 2026, the builder confirmed that the car was assembled and working.** This is a working physical build; speed, pulling force, and endurance have not been measured.
 
-Сайт: [pechenko.org](https://pechenko.org/). Репозиторий: [parilo/solar_car](https://github.com/parilo/solar_car). Лицензия: [MIT](LICENSE).
+Website: [pechenko.org](https://pechenko.org/) (Russian). Repository: [parilo/solar_car](https://github.com/parilo/solar_car). License: [MIT](LICENSE).
 
-![Цифровая модель машинки](site/solar-car-assets/car-hero.webp)
+![CAD rendering of the solar car](site/solar-car-assets/car-hero.webp)
 
-## Файлы для печати
+## Print files
 
-Актуальная геометрия: шасси **V2.10**, крепления панелей **BF5**. Все STL в [models/print](models/print), без встроенных поддержек. Единицы — миллиметры, масштаб — 100%.
+The current design combines the **V2.10 chassis** with the **BF5 panel mounts**. All STL files are in [models/print](models/print). They contain **no built-in supports**. Units are millimeters; print at 100% scale.
 
-| Деталь | Файл | Количество |
+| Part | File | Quantity |
 | --- | --- | --- |
-| Шасси с ложементом мотора | `solar-car-chassis-v2_10.stl` | 1 |
-| Передняя рама | `solar-car-bf5-F-frame.stl` | 1 |
-| Задняя рама | `solar-car-bf5-R-frame.stl` | 1 |
-| Передние стойки | `solar-car-bf5-F1-post.stl`, `solar-car-bf5-F2-post.stl` | по 2 |
-| Задние стойки | `solar-car-bf5-R1-post.stl`, `solar-car-bf5-R2-post.stl` | по 2 |
+| Chassis with integrated motor cradle | `solar-car-chassis-v2_10.stl` | 1 |
+| Front panel frame | `solar-car-bf5-F-frame.stl` | 1 |
+| Rear panel frame | `solar-car-bf5-R-frame.stl` | 1 |
+| Front posts | `solar-car-bf5-F1-post.stl`, `solar-car-bf5-F2-post.stl` | 2 of each |
+| Rear posts | `solar-car-bf5-R1-post.stl`, `solar-car-bf5-R2-post.stl` | 2 of each |
 
-Итого 11 печатных деталей. Файлы `solar-car-bf5-frames.stl` и `solar-car-bf5-posts.stl` — общие раскладки тех же рам и стоек. **Выбирайте раскладки или отдельные детали: печатать оба варианта не нужно.**
+There are **11 printed parts** in total. `solar-car-bf5-frames.stl` and `solar-car-bf5-posts.stl` are combined print layouts of the same frames and posts. **Use either the layouts or the individual files, not both.**
 
-Материал использован PETG; принтер — Creality Ender 3 S1. Поддержки и ориентацию настраивайте в своём слайсере. G-code не включён. [STEP-модели](models/step) доступны для CAD; `assembly-reference.step` содержит панели и предназначен для просмотра, а не печати одним объектом.
+The car was printed in PETG on a Creality Ender 3 S1. Set orientation and supports in your own slicer. G-code is not included. [STEP files](models/step) are available for CAD use; `assembly-reference.step` includes reference solar panels and is for inspection, not printing as a single object.
 
-## Комплектующие и размеры
+## Hardware and dimensions
 
-Использованы панели, мотор, оси, шестерёнки и колёса исходной машинки:
+The solar panels, motor, axles, gears, and wheels were reused from the original car:
 
-- 2 панели 55 × 55 × 2 мм; пайка примерно на 2 мм ниже задней поверхности.
-- Мотор диаметром 24 мм, закреплённый стяжкой в цельном ложементе шасси.
-- Оси диаметром 2 мм; для свободного вращения выбраны печатные отверстия 2,3 мм.
-- Колёса диаметром 30 мм и шириной 10 мм; база 63 мм.
-- Межосевое расстояние передачи 15,00 мм, выбранное по пробникам; на маленькой шестерёнке 10 зубьев.
-- Провода и стяжка шириной 4 мм.
+- Two 55 × 55 × 2 mm solar panels, with solder joints protruding approximately 2 mm below the back surface.
+- A 24 mm diameter motor, held with a cable tie in the integrated chassis cradle.
+- 2 mm diameter axles; 2.3 mm printed bores were selected for free rotation.
+- 30 mm diameter, 10 mm wide wheels; 63 mm wheelbase.
+- A 15.00 mm gear center distance, selected using printed test pieces; the small pinion has 10 teeth.
+- Wires and a 4 mm wide cable tie.
 
-Размеры зубьев большой шестерни, электрические характеристики панелей и мотора не определены в модели. При использовании других комплектующих проверьте совместимость. CAD-изображения показывают колёса схематично; они не являются исходниками для печати покупных деталей.
+The large gear's tooth geometry and the electrical ratings of the panels and motor are not specified by this model. Check compatibility when using different hardware. Wheels in the CAD illustrations are schematic; they are not printable models of the purchased components.
 
-Передняя панель наклонена на 20°, задняя — на 10°. Центр задней панели выше передней на 15 мм. Стойки прямые, с креплениями с обоих концов. Принятая верхняя посадка соответствует пробникам SC1: стойка 1 + гнездо 6. Нижние защёлки входят в штатные отверстия шасси 4,2 × 2,8 мм.
+The front panel is tilted by 20° and the rear panel by 10°. The rear panel's center is 15 mm higher than the front panel's center. All posts are straight, with integral fasteners at both ends. The accepted upper fit corresponds to SC1 test pieces **post 1 + socket 6**. The lower snap joints fit the existing 4.2 × 2.8 mm chassis slots.
 
-## Сборка
+## Assembly
 
-[Схема крепления и сборки (PDF)](docs/panel-assembly.pdf).
+[Panel mounting and assembly guide (PDF, English)](docs/panel-assembly.pdf).
 
-1. Напечатайте детали, уберите поддержки и подпишите стойки F1/F2/R1/R2.
-2. Установите оси, колёса, передачу и мотор. Проверьте свободное вращение.
-3. Вставьте стойки снизу в пустые рамы: верхние язычки направлены к центральным окнам. Тип 1 расположен на заднем краю каждой рамы, тип 2 — на переднем.
-4. Совместите нижние хвостовики с отверстиями шасси и защёлкните по одному. Прижимайте возле стойки, а не за подвижные прижимы панели.
-5. Проведите провода через центральные окна и установите панели.
+1. Print the parts, remove supports, and label the posts F1/F2/R1/R2.
+2. Install the axles, wheels, gears, and motor. Check that the wheels rotate freely.
+3. Insert the posts into the empty panel frames from below, with the upper latch tongues facing the central openings. Type 1 belongs at the rear edge of each frame; type 2 belongs at the front edge.
+4. Align the lower snap stems with the chassis slots and engage them one at a time. Press near each post, not on the flexible panel clips.
+5. Route the wires through the central openings and install the panels.
 
-Для снятия стойки с шасси сожмите два зубца снизу и вытолкните хвостовик вверх. Верхнее крепление освобождается нажатием на язычок в боковом окне гнезда. Посадка зависит от принтера, материала и ориентации печати.
+To remove a post from the chassis, squeeze its two lower prongs from underneath and push the stem upward. Release the upper joint by pressing the latch tongue through the side window of the socket. Fit depends on the printer, material, and print orientation.
 
-## Воспроизвести модели
+## Rebuild the models
 
-Нужен Python, поддерживаемый CadQuery 2.8.0 (проверено в исходном окружении Python 3.11).
+Use a Python version supported by CadQuery 2.8.0. The original environment used Python 3.11.
 
 ```sh
 git clone https://github.com/parilo/solar_car.git
@@ -63,17 +63,21 @@ python cad/build.py --output build
 python cad/verify.py --build build
 ```
 
-`build.py` создаёт STL/STEP, сборку для просмотра и отчёт проверки. `verify.py` сравнивает пересобранную геометрию с опубликованными STEP. Скрипты не зависят от прежних архивов проекта или Onshape.
+`build.py` exports STL and STEP files, an assembly for inspection, and a validation report. `verify.py` compares the rebuilt geometry against the released STEP files. The scripts do not depend on historical project archives or Onshape.
 
-- `cad/chassis.py` — цельное основание V2.10.
-- `cad/panels.py` — общие функции, геометрия прижимов и положение панелей.
-- `cad/frame.py` — рамы и верхние соединения BF4, сохранённые в BF5.
-- `cad/posts.py` — стойки BF5 с нижними защёлками.
-- `docs/validation.json` — размеры и область подтверждённой проверки.
-- `site/` — статический одностраничный сайт.
+- `cad/chassis.py` — the one-piece V2.10 chassis.
+- `cad/panels.py` — shared helpers, panel clips, and panel positions.
+- `cad/frame.py` — BF4 frames and upper joints, retained in BF5.
+- `cad/posts.py` — BF5 posts with lower snap joints.
+- `docs/validation.json` — dimensions and the scope of reported validation.
+- `scripts/build_assembly_guide.py` — generates the English PDF guide; requires ReportLab and Pillow.
+- `scripts/package_downloads.py` — refreshes the website's download archives.
+- `site/` — the static, single-page project website.
 
-## Сайт и видео
+## Website and video
 
-Для локального просмотра выполните `python3 -m http.server 8080 --directory site`.
+Preview the website locally with `python3 -m http.server 8080 --directory site`.
 
-Адрес репозитория и YouTube ID задаются в `site/solar-car-assets/config.js`. Пока ID отсутствует, раздел видео скрыт. Плеер загружается только после нажатия пользователем; до этого сайт не делает запросов к YouTube. Исходный ролик и сторонняя музыка не входят в этот репозиторий и не покрываются его лицензией MIT.
+**Repository documentation is in English; the website remains in Russian.** Its localized text and Russian PDF are retained under `site/`. The English assembly guide is in `docs/panel-assembly.pdf`.
+
+The repository URL and YouTube video ID are set in `site/solar-car-assets/config.js`. The video section stays hidden until an ID is provided. The player loads only after a visitor clicks; the website makes no requests to YouTube before that click. The original video and any third-party music are not included in this repository and are not covered by its MIT license.

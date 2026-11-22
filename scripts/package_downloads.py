@@ -4,7 +4,8 @@ import shutil,zipfile
 ROOT=Path(__file__).resolve().parent.parent
 OUT=ROOT/'site/downloads';OUT.mkdir(exist_ok=True)
 shutil.copy2(ROOT/'LICENSE',OUT/'LICENSE.txt')
-shutil.copy2(ROOT/'docs/panel-assembly.pdf',OUT/'solar-car-assembly.pdf')
+# Keep the website's Russian guide separate from the English repository guide.
+shutil.copy2(ROOT/'site/solar-car-assets/panel-assembly.ru.pdf',OUT/'solar-car-assembly.pdf')
 for extension,folder in [('stl','print'),('step','step')]:
     with zipfile.ZipFile(OUT/f'solar-car-{extension}.zip','w',zipfile.ZIP_DEFLATED,compresslevel=9) as archive:
         for p in sorted((ROOT/'models'/folder).glob('*.'+extension)):archive.write(p,p.name)

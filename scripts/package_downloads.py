@@ -1,11 +1,14 @@
 """Refresh the static site's download bundles. Run from any directory."""
 from pathlib import Path
 import shutil,zipfile
+from build_site import build
+build()
 ROOT=Path(__file__).resolve().parent.parent
 OUT=ROOT/'site/downloads';OUT.mkdir(exist_ok=True)
 shutil.copy2(ROOT/'LICENSE',OUT/'LICENSE.txt')
 # Keep the website's Russian guide separate from the English repository guide.
 shutil.copy2(ROOT/'site/solar-car-assets/panel-assembly.ru.pdf',OUT/'solar-car-assembly.pdf')
+shutil.copy2(ROOT/'docs/panel-assembly.pdf',OUT/'solar-car-assembly.en.pdf')
 for extension,folder in [('stl','print'),('step','step')]:
     with zipfile.ZipFile(OUT/f'solar-car-{extension}.zip','w',zipfile.ZIP_DEFLATED,compresslevel=9) as archive:
         for p in sorted((ROOT/'models'/folder).glob('*.'+extension)):archive.write(p,p.name)

@@ -2,7 +2,7 @@
 
 A small car powered by two solar panels, with a 3D-printed chassis, panel frames, and support posts. **On November 22, 2026, the builder confirmed that the car was assembled and working.** This is a working physical build; speed, pulling force, and endurance have not been measured.
 
-Website: [solar-car.pechenko.org](https://solar-car.pechenko.org/) (Russian). Repository: [parilo/solar_car](https://github.com/parilo/solar_car). License: [MIT](LICENSE).
+Website: [solar-car.pechenko.org](https://solar-car.pechenko.org/) (English, Russian, Simplified Chinese, French and Spanish). Repository: [parilo/solar_car](https://github.com/parilo/solar_car). License: [MIT](LICENSE).
 
 ![CAD rendering of the solar car](site/solar-car-assets/car-hero.webp)
 
@@ -72,12 +72,17 @@ python cad/verify.py --build build
 - `docs/validation.json` — dimensions and the scope of reported validation.
 - `scripts/build_assembly_guide.py` — generates the English PDF guide; requires ReportLab and Pillow.
 - `scripts/package_downloads.py` — refreshes the website's download archives.
+- `scripts/build_site.py` — builds the five language pages using the Python standard library.
 - `site/` — the static, single-page project website.
 
 ## Website and video
 
 Preview the website locally with `python3 -m http.server 8080 --directory site`.
 
-**Repository documentation is in English; the website remains in Russian.** Its localized text and Russian PDF are retained under `site/`. The English assembly guide is in `docs/panel-assembly.pdf`.
+**English is the website's default language.** The header offers English, Russian (`/ru/`), Simplified Chinese (`/zh/`), French (`/fr/`) and Spanish (`/es/`). The visitor's choice is remembered when browser storage is available; browser language alone never changes the default. Each language has a complete static page and works without JavaScript.
+
+Edit `web/template.html` for the shared layout and `web/locales/*.json` for translations, then run `python3 scripts/package_downloads.py`. This rebuilds the pages, sitemap and download archives. The generated HTML in `site/` is ready to serve without a build step on the server.
+
+The assembly guide is available in English and Russian. The Russian page links to the Russian PDF; the other pages link to the English PDF and identify its language. Repository documentation remains in English.
 
 The repository URL and YouTube video ID are set in `site/solar-car-assets/config.js`. The video section stays hidden until an ID is provided. The player loads only after a visitor clicks; the website makes no requests to YouTube before that click. The original video and any third-party music are not included in this repository and are not covered by its MIT license.

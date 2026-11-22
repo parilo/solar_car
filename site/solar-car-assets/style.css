@@ -3,3 +3,23 @@
 /* Keep primary reading and navigation comfortably sized on small screens. */
 .hero-note,.steps p,.design-notes p,.parts-content,.journey-head>p{font-size:16px}.nav nav{font-size:14px}.download-item small{font-size:14px}td:nth-child(2){font-size:14px}
 .sun-word{isolation:isolate}@media(max-width:760px){.hero-copy{display:contents}.hero .hero-visual{grid-row:3;margin:22px 0 25px}.hero .hero-visual .model-tag{top:-14px}.hero .hero-note{grid-row:6;margin-top:20px;margin-bottom:0}.hero .hero-actions{grid-row:5}.hero .built{margin-top:20px}}
+
+/* A shared language switcher on every static language page. */
+.nav-tools{display:flex;align-items:center;gap:28px;min-width:0}
+.language-picker{position:relative;flex-shrink:0;font-size:14px;line-height:1.4}
+.language-picker summary{list-style:none;display:flex;align-items:center;gap:9px;min-height:44px;padding:9px 0 9px 10px;cursor:pointer;font-weight:600}
+.language-picker summary::-webkit-details-marker{display:none}
+.language-picker summary svg{width:19px;height:19px;fill:none;stroke:currentColor;stroke-width:1.6}
+.language-chevron{width:6px;height:6px;border-right:1.5px solid;border-bottom:1.5px solid;transform:rotate(45deg);margin:0 3px 4px 5px}
+.language-picker[open] .language-chevron{transform:rotate(225deg);margin-bottom:0}
+.language-picker ul{list-style:none;position:absolute;right:0;top:calc(100% + 10px);z-index:10;width:184px;padding:7px;margin:0;background:#fff;border:1px solid var(--line);border-radius:8px;box-shadow:0 10px 30px #20292114}
+.language-picker li{margin:0}
+.language-picker a{display:block;padding:12px;border-radius:4px;font-size:16px}
+.language-picker a:hover,.language-picker a:focus-visible{background:var(--pale)}
+.language-picker a[aria-current="page"]{background:var(--lime);font-weight:700}
+.hero-copy,.hero-visual,.design-grid>*{min-width:0}
+:lang(zh-Hans) h1,:lang(zh-Hans) h2,:lang(zh-Hans) h3{letter-spacing:-.025em;line-height:1.15}
+:lang(zh-Hans) .eyebrow{letter-spacing:.06em}
+@media(max-width:1100px){.nav-tools{gap:18px}.nav nav{gap:20px}}
+@media(max-width:900px){.nav nav>a:first-child,.nav nav>a:nth-child(2){display:none}}
+@media(max-width:760px){.nav nav{display:none}.nav-tools{gap:0}.language-picker summary{padding-left:0}.hero h1{font-size:clamp(54px,15vw,92px)}}

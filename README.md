@@ -2,7 +2,7 @@
 
 A small car powered by two solar panels, with a 3D-printed chassis, panel frames, and support posts. **On November 22, 2026, the builder confirmed that the car was assembled and working.** This is a working physical build; speed, pulling force, and endurance have not been measured.
 
-Website: [pechenko.org](https://pechenko.org/) (Russian). Repository: [parilo/solar_car](https://github.com/parilo/solar_car). License: [MIT](LICENSE).
+Website: [solar-car.pechenko.org](https://solar-car.pechenko.org/) (Russian). Repository: [parilo/solar_car](https://github.com/parilo/solar_car). License: [MIT](LICENSE).
 
 ![CAD rendering of the solar car](site/solar-car-assets/car-hero.webp)
 

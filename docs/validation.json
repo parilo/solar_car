@@ -1,0 +1,37 @@
+{
+  "geometry": {
+    "chassis": "V2.10",
+    "panelMounts": "BF5"
+  },
+  "units": "mm",
+  "userReportDate": "2026-11-22",
+  "userReportsAssembledAndWorking": true,
+  "reportScope": "Overall successful assembly and operation, as reported by the builder. No measured performance or endurance figures supplied.",
+  "upperFit": {
+    "couponPost": 1,
+    "couponReceiver": 6,
+    "accepted": true
+  },
+  "supportedPrinter": "Creality Ender 3 S1",
+  "material": "PETG",
+  "design": {
+    "panelSizeMm": [
+      55,
+      55,
+      2
+    ],
+    "anglesDeg": [
+      20,
+      10
+    ],
+    "rearPanelCentreLiftMm": 15,
+    "axleBoreMm": 2.3,
+    "gearCentreDistanceMm": 15
+  },
+  "embeddedSupports": false,
+  "slicerSettingsSupplied": false,
+  "historicalGuideDate": "2026-11-15",
+  "historicalGuideNote": "Public guide updated after the successful whole-car report.",
+  "standaloneSourcesRebuiltAndCompared": true,
+  "solidSymmetricDifferenceMm3": 0
+}

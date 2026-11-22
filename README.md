@@ -77,6 +77,8 @@ python cad/verify.py --build build
 
 ## Website and video
 
+[Watch the assembled car drive on YouTube](https://youtu.be/IwpP_UVUebM).
+
 Preview the website locally with `python3 -m http.server 8080 --directory site`.
 
 **English is the website's default language.** The header offers English, Russian (`/ru/`), Simplified Chinese (`/zh/`), French (`/fr/`) and Spanish (`/es/`). The visitor's choice is remembered when browser storage is available; browser language alone never changes the default. Each language has a complete static page and works without JavaScript.

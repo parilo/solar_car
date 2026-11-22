@@ -43,7 +43,7 @@ The large gear's tooth geometry and the electrical ratings of the panels and mot
 
 ### Separate components on Temu and AliExpress
 
-These are **unvalidated alternatives**, not the components tested in the completed car. The product pages were checked on November 22, 2026. Availability, shipping and minimum order quantities vary by region.
+**Only the build using parts from two original SICWUD Temu kits has been tested. A build using separately purchased components has not been tested.** The products below are candidates for alternatives; their compatibility as a complete car has not been verified. The product pages were checked on November 22, 2026. Availability, shipping and minimum order quantities vary by region.
 
 | Component | Direct product listing | Quantity needed / pack contents | What to check |
 | --- | --- | --- | --- |

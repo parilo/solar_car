@@ -91,7 +91,7 @@
   "hardwareAction": "Où trouver les composants",
   "hardwareEyebrow": "Les pièces de départ",
   "hardwareTitle": "Imprimez la structure.\nRéutilisez les composants.",
-  "hardwareIntro": "Les roues, le moteur, les engrenages et les panneaux proviennent de kits de voitures solaires en bois. Voici le kit utilisé pour ce projet.",
+  "hardwareIntro": "La voiture fonctionnelle a été assemblée avec les pièces de deux kits de voitures solaires en bois SICWUD achetés sur Temu. Seul ce montage à partir de deux kits a été testé.",
   "kitAlt": "Photo du kit de voiture solaire en bois SICWUD, avec un panneau, un moteur et quatre roues",
   "kitPhotoCredit": "Photo provenant de la fiche Temu liée ; droits réservés à son propriétaire.",
   "kitQuantity": "2 kits pour une voiture",
@@ -101,7 +101,7 @@
   "kitAction": "Voir le kit sur Temu ↗",
   "kitNote": "Le constructeur a fourni ce lien vers le produit acheté. Les fiches et la livraison peuvent varier selon le pays.",
   "separateTitle": "Composants séparés sur Temu et AliExpress",
-  "separateIntro": "Liens directs vers des produits de remplacement possibles. Ces pièces n’ont pas été testées sur cette voiture. Vérifiez les dimensions et la compatibilité électrique indiquées ci-dessous avant de commander.",
+  "separateIntro": "Les liens ci-dessous proposent des pièces de remplacement possibles. Leur compatibilité dans une voiture complète n’a pas été vérifiée. Vérifiez les dimensions et la compatibilité électrique avant de commander.",
   "motorQuantity": "1 moteur",
   "motorAlternative": "Le dessin du vendeur indique Ø24,3 × 12,4 mm, avec 6,2 mm d’arbre apparent. Un peu plus grand que notre moteur mesuré à Ø24 × 12 mm. Vérifiez le berceau, le montage du pignon, l’alignement des engrenages et le fonctionnement avec vos panneaux. Vendu sans pignon.",
   "motorShop": "Moteur sur AliExpress ↗",
@@ -136,5 +136,6 @@
   "pinionShop": "Pignon moteur sur AliExpress",
   "axleGearTitle": "Roue dentée arrière · 502A · 50 dents",
   "axleGearDescription": "Choisissez « 50 Teeth » et « 2mm Tight ». Le dessin du vendeur indique Ø26 mm, une denture de 1,6 mm de large, une largeur totale de 4,4 mm et un alésage de 1,95 mm pour un montage serré sur l’axe de 2 mm. Vérifiez le dégagement du moyeu et l’alignement des dentures.",
-  "axleGearShop": "Roue dentée d’essieu sur AliExpress"
+  "axleGearShop": "Roue dentée d’essieu sur AliExpress",
+  "separateStatus": "Le montage avec des composants achetés séparément n’a pas été testé."
 }

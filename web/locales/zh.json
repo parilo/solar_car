@@ -91,7 +91,7 @@
   "hardwareAction": "零件采购",
   "hardwareEyebrow": "我们使用的套件",
   "hardwareTitle": "打印车架，\n再利用现成零件。",
-  "hardwareIntro": "车轮、电机、齿轮和太阳能板来自木制太阳能小车套件。下面就是本项目实际使用的套件。",
+  "hardwareIntro": "这辆已正常运行的小车使用 Temu 上两套 SICWUD 木制太阳能小车套件的零件组装而成。只有使用这两套套件的组装方案经过验证。",
   "kitAlt": "SICWUD 木制太阳能小车套件商品照片，包含一块太阳能板、电机和四个车轮",
   "kitPhotoCredit": "商品照片来自链接中的 Temu 商品页，版权归原权利人所有。",
   "kitQuantity": "每辆小车需要 2 套",
@@ -101,7 +101,7 @@
   "kitAction": "在 Temu 查看套件 ↗",
   "kitNote": "这是制作者提供的实际购买商品链接。不同国家的商品页面及配送选项可能不同。",
   "separateTitle": "在 Temu 和 AliExpress 单独购买零件",
-  "separateIntro": "以下是替代零件的商品直达链接，尚未在本车上测试。下单前请核对下列尺寸和电气兼容性。",
+  "separateIntro": "以下链接仅提供可供选配的替代零件。它们组合成完整小车后的兼容性尚未验证。下单前请核对尺寸和电气参数。",
   "motorQuantity": "1 台电机",
   "motorAlternative": "卖家尺寸图标注机身 Ø24.3 × 12.4 mm，外露轴长 6.2 mm，比本项目实测的 Ø24 × 12 mm 电机略大。请核对安装座配合、齿轮安装与啮合，以及太阳能板能否驱动电机。不含齿轮。",
   "motorShop": "在 AliExpress 查看电机 ↗",
@@ -136,5 +136,6 @@
   "pinionShop": "在 AliExpress 查看电机齿轮",
   "axleGearTitle": "后轴齿轮 · 502A · 50 齿",
   "axleGearDescription": "选择“50 Teeth”和“2mm Tight”。卖家尺寸图标注外径 Ø26 mm、齿宽 1.6 mm、总宽 4.4 mm、孔径 1.95 mm，用于与 2 mm 后轴过盈配合。请检查轮毂间隙及齿轮对齐情况。",
-  "axleGearShop": "在 AliExpress 查看后轴齿轮"
+  "axleGearShop": "在 AliExpress 查看后轴齿轮",
+  "separateStatus": "使用单独购买的零件组装整车的方案尚未经过验证。"
 }

@@ -91,7 +91,7 @@
   "hardwareAction": "Dónde conseguir los componentes",
   "hardwareEyebrow": "Las piezas de partida",
   "hardwareTitle": "Imprime la estructura.\nReutiliza los componentes.",
-  "hardwareIntro": "Las ruedas, el motor, los engranajes y los paneles proceden de kits de coches solares de madera. Este es el kit utilizado en el proyecto.",
+  "hardwareIntro": "El coche que funciona se ha montado con las piezas de dos kits de coches solares de madera SICWUD de Temu. Solo se ha probado este montaje a partir de dos kits.",
   "kitAlt": "Foto del kit de coche solar de madera SICWUD, con un panel, motor y cuatro ruedas",
   "kitPhotoCredit": "Foto de la ficha de Temu enlazada; los derechos pertenecen a su propietario.",
   "kitQuantity": "2 kits para un coche",
@@ -101,7 +101,7 @@
   "kitAction": "Ver el kit en Temu ↗",
   "kitNote": "El constructor facilitó este enlace al producto que compró. La ficha y las opciones de envío pueden variar según el país.",
   "separateTitle": "Componentes por separado en Temu y AliExpress",
-  "separateIntro": "Enlaces directos a posibles componentes alternativos. Estas piezas no se han probado en este coche. Antes de comprarlas, comprueba las dimensiones y la compatibilidad eléctrica indicadas abajo.",
+  "separateIntro": "Los enlaces siguientes son posibles alternativas para conseguir las piezas. No se ha verificado su compatibilidad como coche completo. Comprueba las dimensiones y la compatibilidad eléctrica antes de comprarlas.",
   "motorQuantity": "1 motor",
   "motorAlternative": "El dibujo del vendedor indica Ø24,3 × 12,4 mm, con 6,2 mm de eje expuesto. Es algo mayor que nuestro motor medido de Ø24 × 12 mm. Comprueba el ajuste en el soporte, el piñón, la alineación de los engranajes y el funcionamiento con tus paneles. Se vende sin piñón.",
   "motorShop": "Motor en AliExpress ↗",
@@ -136,5 +136,6 @@
   "pinionShop": "Piñón del motor en AliExpress",
   "axleGearTitle": "Engranaje del eje trasero · 502A · 50 dientes",
   "axleGearDescription": "Elige «50 Teeth» y «2mm Tight». El dibujo del vendedor indica Ø26 mm, 1,6 mm de ancho de dentado, 4,4 mm de ancho total y un orificio de 1,95 mm para ajuste a presión en el eje de 2 mm. Comprueba la holgura del cubo y la alineación de los dientes.",
-  "axleGearShop": "Engranaje del eje en AliExpress"
+  "axleGearShop": "Engranaje del eje en AliExpress",
+  "separateStatus": "El montaje con componentes comprados por separado no se ha probado."
 }

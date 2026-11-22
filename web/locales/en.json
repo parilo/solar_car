@@ -91,7 +91,7 @@
   "hardwareAction": "Where to get the hardware",
   "hardwareEyebrow": "The parts we started with",
   "hardwareTitle": "Print the structure.\nReuse the hardware.",
-  "hardwareIntro": "The wheels, motor, gears and solar panels came from wooden solar-car kits. Here is the exact kit used in this build.",
+  "hardwareIntro": "The working car was built using parts from two SICWUD wooden solar-car kits from Temu. Only this two-kit build has been tested.",
   "kitAlt": "Product photo of the SICWUD wooden solar car kit, with one panel, motor and four wheels",
   "kitPhotoCredit": "Product photo from the linked Temu listing; rights belong to its owner.",
   "kitQuantity": "2 kits for one car",
@@ -101,7 +101,7 @@
   "kitAction": "View the kit on Temu ↗",
   "kitNote": "The builder supplied this exact product link. Listings and shipping options can vary by country.",
   "separateTitle": "Separate parts on Temu & AliExpress",
-  "separateIntro": "Direct product listings for sourcing alternatives. These parts have not been tested in this car. Check the dimensions and electrical compatibility below before ordering.",
+  "separateIntro": "The links below are candidates for sourcing alternatives. Their compatibility as a complete car has not been verified. Check the dimensions and electrical compatibility before ordering.",
   "motorQuantity": "1 motor",
   "motorAlternative": "The seller’s drawing shows Ø24.3 × 12.4 mm, with 6.2 mm of exposed shaft. Slightly larger than our measured Ø24 × 12 mm motor. Check cradle fit, pinion fit, gear alignment and operation with your panels. Sold without a gear.",
   "motorShop": "Motor on AliExpress ↗",
@@ -136,5 +136,6 @@
   "pinionShop": "Motor pinion on AliExpress",
   "axleGearTitle": "Rear axle gear · 502A · 50 teeth",
   "axleGearDescription": "Choose “50 Teeth” and “2mm Tight”. The seller’s drawing shows Ø26 mm, a 1.6 mm tooth face, 4.4 mm total width and a 1.95 mm bore for a press fit on the 2 mm axle. Check hub clearance and tooth alignment.",
-  "axleGearShop": "Axle gear on AliExpress"
+  "axleGearShop": "Axle gear on AliExpress",
+  "separateStatus": "A build using separately purchased components has not been tested."
 }

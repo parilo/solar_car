@@ -52,7 +52,8 @@
   button.type = 'button'; button.className = 'video-load';
   button.setAttribute('aria-label', container.dataset.loadLabel);
   const poster = document.createElement('img');
-  poster.src = container.dataset.poster; poster.alt = ''; poster.loading = 'lazy';
+  poster.src = container.dataset.poster; poster.alt = ''; poster.loading = 'eager';
+  poster.fetchPriority = 'high';
   const label = document.createElement('span'); label.textContent = container.dataset.playLabel;
   button.append(poster, label);
   button.addEventListener('click', () => {

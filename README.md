@@ -24,7 +24,13 @@ The car was printed in PETG on a Creality Ender 3 S1. Set orientation and suppor
 
 ## Hardware and dimensions
 
-The solar panels, motor, axles, gears, and wheels were reused from the original car:
+The solar panels, motor, axles, gears, and wheels came from **two SICWUD wooden solar car kits** from [this Temu listing](https://www.temu.com/goods.html?goods_id=606027684660893&sku_id=93361448944809), in the **Solar car** variant. The builder supplied the exact product link. Each kit has one panel, so this two-panel car needs **two kits**. Use both panels and one set of drivetrain parts; the second motor and remaining parts are spares.
+
+![The wooden solar car donor kit, pictured in its Temu listing](site/solar-car-assets/donor-kit.webp)
+
+Product photo from the linked listing; it is not covered by this repository's MIT license. See [asset sources](docs/ASSET_SOURCES.md).
+
+The dimensions used in the build are:
 
 - Two 55 × 55 × 2 mm solar panels, with solder joints protruding approximately 2 mm below the back surface.
 - A 24 mm diameter motor, held with a cable tie in the integrated chassis cradle.
@@ -35,11 +41,36 @@ The solar panels, motor, axles, gears, and wheels were reused from the original 
 
 The large gear's tooth geometry and the electrical ratings of the panels and motor are not specified by this model. Check compatibility when using different hardware. Wheels in the CAD illustrations are schematic; they are not printable models of the purchased components.
 
+### Separately sold components
+
+These are **unvalidated alternatives**, not the components tested in the completed car. Listings were checked on November 22, 2026. Availability and shipping vary by region.
+
+| Component | Example listing | Quantity | What to check |
+| --- | --- | --- | --- |
+| Motor | [OPITEC RF 300, 224154](https://www.opitec.com/es-es/motor-solar-rf-300/224154) | 1 | Listed body Ø24 × 12 mm and shaft Ø2 mm; check shaft length, pinion fit and panel compatibility. |
+| Wheels | [X2 Robotics Rubber Tire Wheel Pair, White 30mm](https://x2robotics.ca/new-products/robot-parts/robot-parts/wires/robot-kits/wheels/rubber-tire-wheel-pair-white-30mm) | 2 pairs / 4 wheels | Listed Ø30 × 10 mm, with a 1.9 mm press-fit bore for a 2 mm axle. Check fit and clearance. |
+| Panels | [E360 55 × 55 mm, 2 V / 160 mA](https://dientu360.com/tam-pin-mat-troi-55x55mm) | 2 | Thickness is not specified. These frames require 2 mm panels with a suitable inactive border; confirm thickness and electrical compatibility. The listed rating is not a rating for the original kit. |
+
+Also needed: two Ø2 mm axles, a matched gear pair, wires and a 4 mm cable tie. Reuse the donor kit's matched gears. A 10-tooth pinion and a 15.00 mm center distance alone do not identify a compatible gear set; a complete separately sourced drivetrain has not been verified.
+
 The front panel is tilted by 20° and the rear panel by 10°. The rear panel's center is 15 mm higher than the front panel's center. All posts are straight, with integral fasteners at both ends. The accepted upper fit corresponds to SC1 test pieces **post 1 + socket 6**. The lower snap joints fit the existing 4.2 × 2.8 mm chassis slots.
 
 ## Assembly
 
+[![Exploded view of the V2.10 chassis and BF5 panel mounts](site/solar-car-assets/assembly-exploded.webp)](docs/assembly-exploded.png)
+
+The diagram uses the released STEP geometry. Purchased parts are simplified references; gear teeth, wiring and the cable tie are omitted. This is a mechanical assembly illustration, not an electrical schematic.
+
+1. **Chassis:** the motor cradle and axle supports are integrated into the base.
+2. **Wheels and axles:** four wheels, two axles; the large gear sits on the rear axle.
+3. **Motor:** seat it in the cradle, align the gears and secure it with a 4 mm cable tie.
+4. **Posts:** two each of F1, F2, R1 and R2. F means front frame, R means rear frame. Type 1 is at the rear edge of each frame; type 2 is at the front edge.
+5. **Frames:** insert the posts from below into the empty frames, then engage the lower chassis snaps.
+6. **Panels:** route the wires through the openings and install the panels last.
+
 [Panel mounting and assembly guide (PDF, English)](docs/panel-assembly.pdf).
+
+Assembly order:
 
 1. Print the parts, remove supports, and label the posts F1/F2/R1/R2.
 2. Install the axles, wheels, gears, and motor. Check that the wheels rotate freely.
@@ -73,6 +104,7 @@ python cad/verify.py --build build
 - `scripts/build_assembly_guide.py` — generates the English PDF guide; requires ReportLab and Pillow.
 - `scripts/package_downloads.py` — refreshes the website's download archives.
 - `scripts/build_site.py` — builds the five language pages using the Python standard library.
+- `scripts/render_exploded.py` — renders the exploded view from `models/step/assembly-reference.step`; additionally requires Pillow, Numba, SciPy and the DejaVu Sans fonts. Run `python scripts/render_exploded.py`.
 - `site/` — the static, single-page project website.
 
 ## Website and video
@@ -87,4 +119,4 @@ Edit `web/template.html` for the shared layout and `web/locales/*.json` for tran
 
 The assembly guide is available in English and Russian. The Russian page links to the Russian PDF; the other pages link to the English PDF and identify its language. Repository documentation remains in English.
 
-The repository URL and YouTube video ID are set in `site/solar-car-assets/config.js`. The video section stays hidden until an ID is provided. The player loads only after a visitor clicks; the website makes no requests to YouTube before that click. The original video and any third-party music are not included in this repository and are not covered by its MIT license.
+The repository URL and YouTube video ID are set in `site/solar-car-assets/config.js`. The video section stays hidden until an ID is provided. Its poster is a frame from the builder's footage, at approximately four seconds, converted from HDR to SDR for the website. The player loads only after a visitor clicks; the website makes no requests to YouTube before that click. The original video and any third-party music are not included in this repository and are not covered by its MIT license. The third-party donor kit product photo is also excluded from MIT; see [asset sources](docs/ASSET_SOURCES.md).

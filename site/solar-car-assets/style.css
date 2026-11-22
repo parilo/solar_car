@@ -5,6 +5,8 @@
 .sun-word{isolation:isolate}@media(max-width:760px){.hero-copy{display:contents}.hero .hero-visual{grid-row:3;margin:22px 0 25px}.hero .hero-visual .model-tag{top:-14px}.hero .hero-note{grid-row:6;margin-top:20px;margin-bottom:0}.hero .hero-actions{grid-row:5}.hero .built{margin-top:20px}}
 
 /* A shared language switcher on every static language page. */
+.video-section:first-child{padding-block:48px 0}
+@media(max-width:760px){.video-section:first-child{padding-block:32px 0}}
 .nav-tools{display:flex;align-items:center;gap:28px;min-width:0}
 .language-picker{position:relative;flex-shrink:0;font-size:14px;line-height:1.4}
 .language-picker summary{list-style:none;display:flex;align-items:center;gap:9px;min-height:44px;padding:9px 0 9px 10px;cursor:pointer;font-weight:600}

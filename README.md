@@ -2,7 +2,7 @@
 
 Небольшая машинка на двух солнечных панелях. Шасси, рамы и стойки спроектированы для 3D-печати. **22 ноября 2026 года автор сообщил: машинка собрана, всё работает.** Это результат практической сборки; измерения скорости, тяги и ресурса не проводились.
 
-Сайт: [pechenko.org](https://pechenko.org/). Лицензия: [MIT](LICENSE).
+Сайт: [pechenko.org](https://pechenko.org/). Репозиторий: [parilo/solar_car](https://github.com/parilo/solar_car). Лицензия: [MIT](LICENSE).
 
 ![Цифровая модель машинки](site/solar-car-assets/car-hero.webp)
 
@@ -54,6 +54,8 @@
 Нужен Python, поддерживаемый CadQuery 2.8.0 (проверено в исходном окружении Python 3.11).
 
 ```sh
+git clone https://github.com/parilo/solar_car.git
+cd solar_car
 python3 -m venv .venv
 . .venv/bin/activate
 pip install -r requirements.txt

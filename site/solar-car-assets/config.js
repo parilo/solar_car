@@ -1,2 +1,2 @@
-// Add the confirmed public repository and YouTube ID here after publication.
-window.SOLAR_CAR = { githubUrl: '', youtubeId: '' };
+// Set youtubeId after the finished video is uploaded to YouTube.
+window.SOLAR_CAR = { githubUrl: 'https://github.com/parilo/solar_car', youtubeId: '' };

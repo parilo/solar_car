@@ -24,4 +24,10 @@ The motor, pinion envelope, axle gear envelope, axles and wheels are schematic r
 
 ## Separate component listings
 
-The website and README link directly to the [OPITEC RF 300 motor](https://www.opitec.com/es-es/motor-solar-rf-300/224154), [X2 Robotics 30 mm wheel pair](https://x2robotics.ca/new-products/robot-parts/robot-parts/wires/robot-kits/wheels/rubber-tire-wheel-pair-white-30mm), and [E360 55 × 55 mm panel](https://dientu360.com/tam-pin-mat-troi-55x55mm). Specifications were checked against these seller pages on November 22, 2026. These alternatives have not been tested in the car. No seller price or stock promise is reproduced.
+The website and README use direct marketplace product links:
+
+- [RF-300CA-09550 motor on AliExpress](https://www.aliexpress.com/item/1005006061376932.html), sold by Motor Studio Store. The seller’s dimension drawing shows a Ø24.3 × 12.4 mm body and 6.2 mm exposed shaft; the product title lists 1.5–6 V. The selected listing has no gear included.
+- [GUDYIR wheels and axles on Temu](https://www.temu.com/goods.html?goods_id=601102406768026). The product description lists 8 wheels (Ø30 × 10 mm, fitting 2 mm shafts) and 4 steel axles (Ø2 × 100 mm).
+- [ALLMEJORES panels on AliExpress](https://www.aliexpress.com/item/1005012060244981.html), sold by MSL Solar Company Store. The title and specification table list 55 × 55 mm, 2 V, 5 panels per pack, with wires. Thickness is not specified.
+
+Checked in the shared browser on November 22, 2026. Dimensions come from seller text and the motor’s annotated product image, not from AliExpress’s AI-generated overview. These components have not been tested in the car. The motor differs slightly from the donor dimensions, and panel thickness/electrical compatibility remain unverified. No price, availability or drop-in compatibility promise is made. Public URLs contain only product identifiers.

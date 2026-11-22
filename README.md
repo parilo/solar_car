@@ -41,15 +41,15 @@ The dimensions used in the build are:
 
 The large gear's tooth geometry and the electrical ratings of the panels and motor are not specified by this model. Check compatibility when using different hardware. Wheels in the CAD illustrations are schematic; they are not printable models of the purchased components.
 
-### Separately sold components
+### Separate components on Temu and AliExpress
 
-These are **unvalidated alternatives**, not the components tested in the completed car. Listings were checked on November 22, 2026. Availability and shipping vary by region.
+These are **unvalidated alternatives**, not the components tested in the completed car. The product pages were checked on November 22, 2026. Availability, shipping and minimum order quantities vary by region.
 
-| Component | Example listing | Quantity | What to check |
+| Component | Direct product listing | Quantity needed / pack contents | What to check |
 | --- | --- | --- | --- |
-| Motor | [OPITEC RF 300, 224154](https://www.opitec.com/es-es/motor-solar-rf-300/224154) | 1 | Listed body Ø24 × 12 mm and shaft Ø2 mm; check shaft length, pinion fit and panel compatibility. |
-| Wheels | [X2 Robotics Rubber Tire Wheel Pair, White 30mm](https://x2robotics.ca/new-products/robot-parts/robot-parts/wires/robot-kits/wheels/rubber-tire-wheel-pair-white-30mm) | 2 pairs / 4 wheels | Listed Ø30 × 10 mm, with a 1.9 mm press-fit bore for a 2 mm axle. Check fit and clearance. |
-| Panels | [E360 55 × 55 mm, 2 V / 160 mA](https://dientu360.com/tam-pin-mat-troi-55x55mm) | 2 | Thickness is not specified. These frames require 2 mm panels with a suitable inactive border; confirm thickness and electrical compatibility. The listed rating is not a rating for the original kit. |
+| Motor | [RF-300CA-09550 — AliExpress, Motor Studio Store](https://www.aliexpress.com/item/1005006061376932.html) | 1 motor; no gear included | Seller drawing: body Ø24.3 × 12.4 mm, exposed shaft 6.2 mm. Slightly larger than the measured Ø24 × 12 mm donor motor. Check cradle and pinion fit, gear alignment and operation with the panels; the title lists 1.5–6 V. |
+| Wheels and axles | [GUDYIR 30 mm wheels with axles — Temu](https://www.temu.com/goods.html?goods_id=601102406768026) | Need 4 wheels and 2 axles; pack contains 8 wheels and 4 axles | Listed wheels Ø30 × 10 mm, for a 2 mm axle. Supplied steel axles are Ø2 × 100 mm and need cutting to fit. Check the wheel fit. |
+| Panels | [ALLMEJORES 55 × 55 mm, 2 V panels — AliExpress, MSL Solar Company Store](https://www.aliexpress.com/item/1005012060244981.html) | Need 2 panels; pack contains 5 | Wires included. Thickness is not specified; these frames require 2 mm panels with a suitable inactive border. Confirm thickness and electrical compatibility. The listed voltage is not a rating for the original kit. |
 
 Also needed: two Ø2 mm axles, a matched gear pair, wires and a 4 mm cable tie. Reuse the donor kit's matched gears. A 10-tooth pinion and a 15.00 mm center distance alone do not identify a compatible gear set; a complete separately sourced drivetrain has not been verified.
 

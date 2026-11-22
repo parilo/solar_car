@@ -111,7 +111,7 @@
   "panelQuantity": "2 panneaux nécessaires · lot de 5",
   "panelAlternative": "Panneaux annoncés à 55 × 55 mm, 2 V, avec fils. L’épaisseur n’est pas précisée ; nos cadres nécessitent 2 mm. Vérifiez l’épaisseur, la bordure inactive et la compatibilité avec le moteur. Vendeur : MSL Solar Company Store.",
   "panelShop": "Panneaux sur AliExpress ↗",
-  "hardwareRest": "Il faut aussi deux axes Ø2 mm, une paire d’engrenages assortis, des fils et un collier de 4 mm de large. Réutilisez les engrenages du kit : l’entraxe testé est de 15,00 mm avec un pignon moteur de 10 dents. Le nombre de dents de la grande roue et les caractéristiques électriques d’origine ne sont pas documentés ; un entraînement de remplacement complet reste donc à valider.",
+  "hardwareRest": "Cette paire est sélectionnée selon ses dimensions nominales, sans essai physique. Le vendeur ne fournit pas d’angle de pression exploitable ; vérifiez la compatibilité des profils, le maintien sur les axes et la liberté de rotation. Le nombre de dents de la grande roue d’origine reste inconnu. Les engrenages du kit d’origine restent la solution testée. Prévoyez aussi des fils et un collier de 4 mm de large.",
   "explodedOpen": "Ouvrir la vue éclatée en grand ↗",
   "explodedAlt": "Vue éclatée : panneaux au-dessus des cadres, huit montants repérés sous les cadres, châssis avec axes et roues écartées, moteur à côté de son berceau",
   "explodedTitle": "Où va chaque pièce",
@@ -127,5 +127,14 @@
   "legend5Text": "Insérez les montants par dessous, languettes supérieures vers l’ouverture centrale. Clipsez ensuite leurs extrémités inférieures dans le châssis.",
   "legend6Title": "Deux panneaux solaires",
   "legend6Text": "Passez les fils dans les ouvertures des cadres. Installez les panneaux après avoir verrouillé tous les montants.",
-  "diagramNote": "Les pièces imprimées suivent la géométrie CAO publiée. Les pièces achetées sont simplifiées ; les dents, les fils et le collier ne sont pas représentés. Il s’agit du montage mécanique, pas du câblage électrique."
+  "diagramNote": "Les pièces imprimées suivent la géométrie CAO publiée. Les pièces achetées sont simplifiées ; les dents, les fils et le collier ne sont pas représentés. Il s’agit du montage mécanique, pas du câblage électrique.",
+  "gearTitle": "Engrenages du moteur et de l’essieu arrière",
+  "gearIntro": "Une paire candidate chez Pinion Parts Store sur AliExpress : 10 et 50 dents, toutes deux de module 0,5. Pour des engrenages droits standard, cela donne un entraxe nominal de 15 mm et une réduction de 5:1, adaptés à l’entraxe du châssis. Cette paire n’a pas été testée sur la voiture.",
+  "gearQuantity": "1 de chaque nécessaire · lot de 10",
+  "pinionTitle": "Pignon moteur · 102A Long · 10 dents",
+  "pinionDescription": "Choisissez « 10 Teeth » et « 2mm Tight ». Le dessin du vendeur indique Ø5,97 mm, une longueur de 9,2 mm et un alésage de 1,96 mm pour un montage serré sur un arbre de 2 mm. Confirmez le diamètre de l’arbre du moteur de remplacement et alignez les dentures.",
+  "pinionShop": "Pignon moteur sur AliExpress",
+  "axleGearTitle": "Roue dentée arrière · 502A · 50 dents",
+  "axleGearDescription": "Choisissez « 50 Teeth » et « 2mm Tight ». Le dessin du vendeur indique Ø26 mm, une denture de 1,6 mm de large, une largeur totale de 4,4 mm et un alésage de 1,95 mm pour un montage serré sur l’axe de 2 mm. Vérifiez le dégagement du moyeu et l’alignement des dentures.",
+  "axleGearShop": "Roue dentée d’essieu sur AliExpress"
 }

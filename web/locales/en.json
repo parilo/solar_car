@@ -111,7 +111,7 @@
   "panelQuantity": "2 panels needed · 5 per pack",
   "panelAlternative": "Listed as 55 × 55 mm, 2 V panels with wires. Thickness is not specified; our frames require 2 mm panels. Confirm thickness, inactive border and motor compatibility. Sold by MSL Solar Company Store.",
   "panelShop": "Panels on AliExpress ↗",
-  "hardwareRest": "Also needed: two Ø2 mm axles, a matched gear pair, wires and a 4 mm cable tie. Reuse the kit gears: the tested shaft center distance is 15.00 mm with a 10-tooth motor pinion. The large gear tooth count and the original electrical ratings are not recorded, so a complete equivalent drivetrain is not yet verified.",
+  "hardwareRest": "The gear pair is selected by nominal dimensions, not a physical fit test. The seller does not specify a usable pressure angle; confirm the tooth profiles match and check shaft grip and free meshing. The original large gear’s tooth count is still unconfirmed. The donor kit’s gears remain the tested option. Also allow for wires and a 4 mm cable tie.",
   "explodedOpen": "Open the full-size exploded view ↗",
   "explodedAlt": "Exploded solar car: panels above frames, eight labeled posts beneath the frames, chassis with axles and separated wheels, and the motor beside its cradle",
   "explodedTitle": "What goes where",
@@ -127,5 +127,14 @@
   "legend5Text": "Insert posts from below, with the upper latch tongues facing the central opening. Then snap the lower ends into the chassis.",
   "legend6Title": "Two solar panels",
   "legend6Text": "Route the wires through the frame openings. Fit the panels only after all posts are locked in place.",
-  "diagramNote": "Printed parts use the released CAD geometry. Purchased parts are simplified; gear teeth, wires and the cable tie are omitted. The view explains mechanical assembly, not electrical wiring."
+  "diagramNote": "Printed parts use the released CAD geometry. Purchased parts are simplified; gear teeth, wires and the cable tie are omitted. The view explains mechanical assembly, not electrical wiring.",
+  "gearTitle": "Gears for the motor and rear axle",
+  "gearIntro": "A candidate pair from Pinion Parts Store on AliExpress: 10 and 50 teeth, both module 0.5. For standard spur gears this gives a nominal 15 mm center distance and a 5:1 reduction, matching our chassis spacing. This pair has not been tested in the car.",
+  "gearQuantity": "1 of each needed · 10 per pack",
+  "pinionTitle": "Motor pinion · 102A Long · 10 teeth",
+  "pinionDescription": "Choose “10 Teeth” and “2mm Tight”. The seller’s drawing shows Ø5.97 mm, 9.2 mm long and a 1.96 mm bore for a press fit on a 2 mm shaft. Confirm the replacement motor’s shaft diameter and align the pinion with the axle gear.",
+  "pinionShop": "Motor pinion on AliExpress",
+  "axleGearTitle": "Rear axle gear · 502A · 50 teeth",
+  "axleGearDescription": "Choose “50 Teeth” and “2mm Tight”. The seller’s drawing shows Ø26 mm, a 1.6 mm tooth face, 4.4 mm total width and a 1.95 mm bore for a press fit on the 2 mm axle. Check hub clearance and tooth alignment.",
+  "axleGearShop": "Axle gear on AliExpress"
 }

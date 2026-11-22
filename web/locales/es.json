@@ -111,7 +111,7 @@
   "panelQuantity": "Se necesitan 2 paneles · paquete de 5",
   "panelAlternative": "Paneles anunciados de 55 × 55 mm, 2 V, con cables. No se indica el grosor; nuestros marcos requieren 2 mm. Confirma el grosor, el borde sin células y la compatibilidad con el motor. Vendedor: MSL Solar Company Store.",
   "panelShop": "Paneles en AliExpress ↗",
-  "hardwareRest": "También hacen falta dos ejes de Ø2 mm, un par de engranajes compatibles, cables y una brida de 4 mm de ancho. Reutiliza los engranajes del kit: la distancia entre ejes probada es de 15,00 mm, con un piñón de motor de 10 dientes. No se registraron los dientes del engranaje grande ni las especificaciones eléctricas originales, por lo que aún no se ha validado una transmisión alternativa completa.",
+  "hardwareRest": "La pareja se ha seleccionado por sus dimensiones nominales, sin una prueba física de montaje. El vendedor no especifica un ángulo de presión válido; comprueba que los perfiles sean compatibles, el agarre en los ejes y el giro libre. El número de dientes del engranaje grande original sigue sin confirmarse. Los engranajes del kit original son la opción probada. También hacen falta cables y una brida de 4 mm de ancho.",
   "explodedOpen": "Abrir el despiece a tamaño completo ↗",
   "explodedAlt": "Despiece del coche: paneles encima de los marcos, ocho postes identificados debajo, chasis con ejes y ruedas separadas, y motor junto a su soporte",
   "explodedTitle": "Dónde va cada pieza",
@@ -127,5 +127,14 @@
   "legend5Text": "Inserta los postes desde abajo, con las lengüetas superiores hacia la abertura central. Después encaja sus extremos inferiores en el chasis.",
   "legend6Title": "Dos paneles solares",
   "legend6Text": "Pasa los cables por las aberturas de los marcos. Instala los paneles cuando todos los postes estén fijados.",
-  "diagramNote": "Las piezas impresas usan la geometría CAD publicada. Los componentes comprados están simplificados; no se muestran los dientes, cables ni la brida. Es un esquema de montaje mecánico, no de conexiones eléctricas."
+  "diagramNote": "Las piezas impresas usan la geometría CAD publicada. Los componentes comprados están simplificados; no se muestran los dientes, cables ni la brida. Es un esquema de montaje mecánico, no de conexiones eléctricas.",
+  "gearTitle": "Engranajes del motor y del eje trasero",
+  "gearIntro": "Una pareja candidata de Pinion Parts Store en AliExpress: 10 y 50 dientes, ambos de módulo 0,5. Para engranajes rectos estándar, esto da una distancia nominal entre ejes de 15 mm y una reducción de 5:1, acorde con nuestro chasis. Esta pareja aún no se ha probado en el coche.",
+  "gearQuantity": "Se necesita 1 de cada tipo · paquete de 10",
+  "pinionTitle": "Piñón del motor · 102A Long · 10 dientes",
+  "pinionDescription": "Elige «10 Teeth» y «2mm Tight». El dibujo del vendedor indica Ø5,97 mm, 9,2 mm de largo y un orificio de 1,96 mm para ajuste a presión en un eje de 2 mm. Confirma el diámetro del eje del motor de sustitución y alinea los dientes con el engranaje del eje trasero.",
+  "pinionShop": "Piñón del motor en AliExpress",
+  "axleGearTitle": "Engranaje del eje trasero · 502A · 50 dientes",
+  "axleGearDescription": "Elige «50 Teeth» y «2mm Tight». El dibujo del vendedor indica Ø26 mm, 1,6 mm de ancho de dentado, 4,4 mm de ancho total y un orificio de 1,95 mm para ajuste a presión en el eje de 2 mm. Comprueba la holgura del cubo y la alineación de los dientes.",
+  "axleGearShop": "Engranaje del eje en AliExpress"
 }
